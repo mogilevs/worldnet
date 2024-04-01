@@ -93,6 +93,7 @@ input {
   color: #275f7a;
 }
 .section {
+  padding: 100px 0;
 }
 .hero-container {
   display: flex;
@@ -101,8 +102,7 @@ input {
   gap: 12.02px;
 }
 .title-wrapper {
-  padding-bottom: 212px;
-  padding-top: 345px;
+  padding-top: 136px;
 }
 .title {
   font-weight: 700;
@@ -138,7 +138,6 @@ input {
 }
 .advantages {
   background-color: #275f7a;
-  padding: 100px 0;
 }
 .advantages-title {
   font-weight: 700;
@@ -229,7 +228,6 @@ input {
 }
 .feedback {
   background: #275f7a;
-  padding: 100px 0;
 }
 .feedback-wrap {
   margin: 0 auto;
@@ -326,16 +324,43 @@ input {
 .visually-hidden {
 }
 .tafiffs-list {
+  display: flex;
+  gap: 20px;
 }
 .tafiffs-list-item {
+  width: calc((100% - 40px) / 3);
+  padding: 20px 24.39px 35.5px 34.39px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 15px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+.tafiffs-list-item:first-child {
+  padding-left: 34.88px;
+  padding-right: 34.88px;
+}
+.tafiffs-list-item:last-child {
+  padding-left: 34.78px;
+  padding-right: 23px;
 }
 .tafiffs-list-img {
+  display: block;
+  margin: 0 auto 47px;
+}
+.tafiffs-item-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-bottom: 52px;
 }
 .tafiffs-list-subtitle {
   font-weight: 700;
   font-size: 27px;
   line-height: 1.1;
   color: #2e363e;
+}
+.tafiffs-text-wrap {
+  display: flex;
+  justify-content: space-between;
 }
 .tafiffs-list-price {
   font-style: italic;
@@ -353,13 +378,27 @@ input {
   font-weight: 600;
   font-size: 18px;
 }
+.btn-wrap {
+}
 .tafiffs--btn {
+  position: relative;
+  display: block;
   width: 124px;
   height: 23px;
+  font-weight: 400;
   font-size: 17px;
   line-height: 1.1;
   color: #275f7a;
   border: none;
+  margin-left: auto;
+  padding: 0;
+}
+.tafiffs--btn::after {
+  border: 1px solid #275f7a;
+  height: 0px;
+  position: absolute;
+  content: '';
+  bottom: -1px;
 }
 .contact {
 }
