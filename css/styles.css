@@ -160,6 +160,10 @@ input {
   width: 348px;
 }
 .advantages-list-icon {
+  stroke: #fff;
+  stroke-width: 4px;
+  fill: transparent;
+  display: block;
   margin: 0 auto 11px;
 }
 .advantages-list-title {
@@ -490,14 +494,36 @@ input {
   color: #275f7a;
 }
 .footer {
+  padding-top: 91px;
+  padding-bottom: 85px;
+  background: #275f7a;
+}
+.footer-wrap {
+  display: flex;
+  align-items: center;
 }
 .footer-logo {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 288px;
 }
 .footer-list {
+  margin-right: 194px;
+  display: flex;
+  gap: 50px;
 }
 .footer-list-item {
 }
 .footer-icon {
+  fill: #fff;
 }
 .footer-phone {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1;
+  text-align: right;
+  color: #fff;
 }
